@@ -1,0 +1,5 @@
+strings = list(input())
+separator = input()
+strings = separator.join(list(strings))
+strings = strings.split()
+print(*strings)

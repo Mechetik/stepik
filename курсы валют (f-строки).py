@@ -1,0 +1,5 @@
+s_date = input()
+s_dollar = input()
+s_yuan = input()
+s = 'На {0}: 1$ = {1}₽, 1¥ = {2}₽'.format(s_date,s_dollar,s_yuan)
+print(s)
